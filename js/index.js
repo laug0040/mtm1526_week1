@@ -46,7 +46,7 @@ let last_name = 'Tesla'
 // Declare variable year and assign it the value 1898
 let year = 1898
 // Declare variable experiment
-let experiment
+// let experiment
 
 // Concatenate first_name, last_name, year, and required string literals
 // to form the sentence:
@@ -54,7 +54,14 @@ let experiment
 // remotely controlled boat-toy in 1898."
 
 // Assign the result to the variable experiment
-experiment = first_name + ' ' + last_name + ' demonstrated wireless data-transfer with remotely controlled boat-toy in ' + year
-// Print experiment using alert()
+// experiment = first_name + ' ' + last_name + ' demonstrated wireless data-transfer with remotely controlled boat-toy in ' + year + '.'
+
+// Another way to do it using += operator
+let experiment = first_name
+experiment += ' '
+experiment += last_name
+experiment += ' demonstrated wireless data-transfer with remotely controlled boat-toy in '
+experiment += year
+experiment += '.'
 // Print experiment using console.log()
 console.log(experiment)
