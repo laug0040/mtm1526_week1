@@ -30,12 +30,12 @@ m /= 2 // m is now 10
 console.log(m)
 
 // COMPARISON OPERATORS
-alert(a > b) // false
-alert(a < b) // true
-alert(a >= b) // false
-alert(a <= b) // true
-alert(a == b) // false
-alert(a != b) // true
+console.log(a > b) // false
+console.log(a < b) // true
+console.log(a >= b) // false
+console.log(a <= b) // true
+console.log(a == b) // false
+console.log(a != b) // true
 // The reason they are false is because they are not equal, although for true it means they are equal
 
 // EXERCISE
@@ -49,7 +49,7 @@ let year = 1898
 let experiment
 
 // Concatenate first_name, last_name, year, and required string literals
-experiment = first_name + last_name + 'demonstrated wireless data-transfer with remotely controlled boat-toy in' + year
+experiment = first_name + ' ' + last_name + ' demonstrated wireless data-transfer with remotely controlled boat-toy in ' + year
 // to form the sentence:
 // "Nikola Tesla demonstrated wireless data-transfer with
 // remotely controlled boat-toy in 1898."
