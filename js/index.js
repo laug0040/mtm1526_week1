@@ -49,13 +49,12 @@ let year = 1898
 let experiment
 
 // Concatenate first_name, last_name, year, and required string literals
-experiment = first_name + ' ' + last_name + ' demonstrated wireless data-transfer with remotely controlled boat-toy in ' + year
 // to form the sentence:
 // "Nikola Tesla demonstrated wireless data-transfer with
 // remotely controlled boat-toy in 1898."
 
 // Assign the result to the variable experiment
-
+experiment = first_name + ' ' + last_name + ' demonstrated wireless data-transfer with remotely controlled boat-toy in ' + year
 // Print experiment using alert()
 // Print experiment using console.log()
 console.log(experiment)
