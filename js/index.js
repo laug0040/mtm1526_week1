@@ -25,3 +25,6 @@ console.log(`a > b = ${a > b}`)
 let n = 10
 n += 1 // n is now 11
 console.log(n)
+let m = 20
+m /= 2 // m is now 10
+console.log(m)
